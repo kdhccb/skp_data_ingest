@@ -1,0 +1,4 @@
+flume-ng agent \
+--conf /etc/flume-ng/conf \
+--conf-file $DEVSH/exercises/flume/netcat.conf \
+--name agent2 -Dflume.root.logger=INFO,console
